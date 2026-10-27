@@ -1,0 +1,14 @@
+{
+  "configuration": "Voice + Handwriting + Gait",
+  "modalities_used": [
+    "voice",
+    "handwriting",
+    "gait"
+  ],
+  "fusion_method": "average",
+  "voice_probability": 0.00024139041488524526,
+  "handwriting_probability": 0.03906142161037741,
+  "gait_probability": 0.22,
+  "final_probability": 0.08643427067508756,
+  "prediction": 0
+}

@@ -1,0 +1,22 @@
+{
+    "voice": {
+        "metric": "ROC-AUC",
+        "value": 0.9164,
+        "evaluation": "fixed participant-level train/test split",
+        "cross_validation_available": false
+    },
+    "handwriting": {
+        "metric": "F1",
+        "value": 0.8644,
+        "std": 0.0376,
+        "evaluation": "20 repeats x 5-fold repeated stratified CV",
+        "cross_validation_available": true
+    },
+    "gait": {
+        "metric": "CV ROC-AUC",
+        "value": 0.9953108395935122,
+        "evaluation": "cross-validation",
+        "cross_validation_available": true
+    },
+    "note": "Test performance must not be used to derive fusion reliability weights."
+}

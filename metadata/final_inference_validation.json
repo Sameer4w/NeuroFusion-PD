@@ -1,0 +1,89 @@
+{
+  "voice_probability": 0.00024139041488524526,
+  "handwriting_probability": 0.039061421610377324,
+  "gait_probability": 0.7023999999999999,
+  "gait_windows": [
+    {
+      "window": 1,
+      "start_sec": 0.1698056640625,
+      "end_sec": 5.1698056640625,
+      "samples": 497,
+      "probability": 0.707,
+      "prediction": 1
+    },
+    {
+      "window": 2,
+      "start_sec": 5.1698056640625,
+      "end_sec": 10.169805664062501,
+      "samples": 497,
+      "probability": 0.702,
+      "prediction": 1
+    },
+    {
+      "window": 3,
+      "start_sec": 10.169805664062501,
+      "end_sec": 15.169805664062501,
+      "samples": 497,
+      "probability": 0.715,
+      "prediction": 1
+    },
+    {
+      "window": 4,
+      "start_sec": 15.169805664062501,
+      "end_sec": 20.1698056640625,
+      "samples": 497,
+      "probability": 0.703,
+      "prediction": 1
+    },
+    {
+      "window": 5,
+      "start_sec": 20.1698056640625,
+      "end_sec": 25.1698056640625,
+      "samples": 497,
+      "probability": 0.685,
+      "prediction": 1
+    }
+  ],
+  "average_3_modality": {
+    "configuration": "Voice + Handwriting + Gait",
+    "modalities_used": [
+      "voice",
+      "handwriting",
+      "gait"
+    ],
+    "fusion_method": "average",
+    "voice_probability": 0.00024139041488524526,
+    "handwriting_probability": 0.039061421610377324,
+    "gait_probability": 0.7023999999999999,
+    "final_probability": 0.2472342706750875,
+    "prediction": 0
+  },
+  "max_3_modality": {
+    "configuration": "Voice + Handwriting + Gait",
+    "modalities_used": [
+      "voice",
+      "handwriting",
+      "gait"
+    ],
+    "fusion_method": "max",
+    "voice_probability": 0.00024139041488524526,
+    "handwriting_probability": 0.039061421610377324,
+    "gait_probability": 0.7023999999999999,
+    "final_probability": 0.7023999999999999,
+    "prediction": 1
+  },
+  "weighted_3_modality": {
+    "configuration": "Voice + Handwriting + Gait",
+    "modalities_used": [
+      "voice",
+      "handwriting",
+      "gait"
+    ],
+    "fusion_method": "reliability_weighted",
+    "voice_probability": 0.00024139041488524526,
+    "handwriting_probability": 0.039061421610377324,
+    "gait_probability": 0.7023999999999999,
+    "final_probability": 0.26407167404629983,
+    "prediction": 0
+  }
+}

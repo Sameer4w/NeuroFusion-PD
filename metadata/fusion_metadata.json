@@ -1,0 +1,51 @@
+{
+  "project": "NeuroFusion-PD",
+  "fusion_stage": {
+    "status": "development",
+    "decision_level_fusion": true,
+    "threshold": 0.5,
+    "methods": [
+      "average",
+      "max",
+      "reliability_weighted"
+    ],
+    "configurations": 7
+  },
+  "voice": {
+    "model_file": "voice_model_compatible_v2.keras",
+    "scaler_file": "voice_scaler_combined.pkl",
+    "features": 54,
+    "output": "P(Parkinson)",
+    "threshold": 0.5
+  },
+  "handwriting": {
+    "model_file": "handwriting_final_fusion_artifact.joblib",
+    "features": 8,
+    "output": "P(Parkinson)",
+    "threshold": 0.5
+  },
+  "gait": {
+    "model_file": "final_random_forest_model.pkl",
+    "feature_information": "feature_information.pkl",
+    "features_used_by_model": 63,
+    "output": "P(Parkinson)",
+    "threshold": 0.5,
+    "model_type": "Random Forest"
+  },
+  "scientific_constraints": [
+    "Missing modalities are excluded from fusion.",
+    "Missing modalities are not assigned probability zero.",
+    "Reliability weights must be derived from validation performance.",
+    "Test performance must not be used to derive reliability weights.",
+    "Independent modality datasets must not be artificially row-matched.",
+    "The current three modality samples are not a valid paired multimodal evaluation."
+  ],
+  "handwriting_feature_file": {
+    "file": "models/handwriting/v2_fixed_features_all_files.csv",
+    "samples": 40,
+    "columns": 10,
+    "modeled_features": 8,
+    "missing_values": 0,
+    "purpose": "Exact processed feature table used to reproduce the saved Handwriting fusion artifact"
+  }
+}

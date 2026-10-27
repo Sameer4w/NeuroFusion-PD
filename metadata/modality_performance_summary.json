@@ -1,0 +1,28 @@
+{
+  "Voice": {
+    "accuracy": 0.8657,
+    "roc_auc": 0.9164,
+    "evaluation": "participant-level fixed train/test split",
+    "features": 54
+  },
+  "Handwriting": {
+    "accuracy_mean": 0.8313,
+    "accuracy_std": 0.0472,
+    "precision_mean": 0.8698,
+    "recall_mean": 0.86,
+    "f1_mean": 0.8644,
+    "f1_std": 0.0376,
+    "evaluation": "20 repeats \u00d7 5-fold repeated stratified CV",
+    "features": 8
+  },
+  "Gait": {
+    "accuracy": 0.7729,
+    "roc_auc": 0.8036,
+    "f1": 0.7573,
+    "precision": 0.8099,
+    "sensitivity": 0.7112,
+    "specificity": 0.8342,
+    "evaluation": "untouched test set",
+    "features": 63
+  }
+}

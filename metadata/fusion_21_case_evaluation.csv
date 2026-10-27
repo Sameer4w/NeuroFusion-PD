@@ -1,0 +1,22 @@
+Configuration,Method,Final_Probability,Prediction
+Voice,average,0.00024139041488524526,0
+Voice,max,0.00024139041488524526,0
+Voice,reliability_weighted,0.00024139041488524526,0
+Handwriting,average,0.03906142161037741,0
+Handwriting,max,0.03906142161037741,0
+Handwriting,reliability_weighted,0.03906142161037741,0
+Gait,average,0.22,0
+Gait,max,0.22,0
+Gait,reliability_weighted,0.22,0
+Voice + Handwriting,average,0.019651406012631326,0
+Voice + Handwriting,max,0.03906142161037741,0
+Voice + Handwriting,reliability_weighted,0.019084626581430293,0
+Voice + Gait,average,0.11012069520744262,0
+Voice + Gait,max,0.22,0
+Voice + Gait,reliability_weighted,0.11465565212962328,0
+Handwriting + Gait,average,0.12953071080518871,0
+Handwriting + Gait,max,0.22,0
+Handwriting + Gait,reliability_weighted,0.13589863571544347,0
+Voice + Handwriting + Gait,average,0.08643427067508756,0
+Voice + Handwriting + Gait,max,0.22,0
+Voice + Handwriting + Gait,reliability_weighted,0.09111772018883003,0

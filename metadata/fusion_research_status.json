@@ -1,0 +1,19 @@
+{
+  "fusion_implementation": "validated",
+  "modalities_integrated": [
+    "Voice",
+    "Handwriting",
+    "Gait"
+  ],
+  "configurations_validated": 7,
+  "fusion_methods_validated": [
+    "average",
+    "max",
+    "reliability_weighted"
+  ],
+  "controlled_cases": 21,
+  "missing_modality_handling": "validated",
+  "paired_multimodal_performance": "not_established",
+  "reliability_weights": "provisional",
+  "reason": "Current modality datasets are not participant-paired, and modality validation metrics use different evaluation protocols."
+}
