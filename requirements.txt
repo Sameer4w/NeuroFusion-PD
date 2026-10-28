@@ -9,3 +9,5 @@ joblib>=1.4,<2
 librosa>=0.11,<1
 soundfile>=0.12,<1
 praat-parselmouth>=0.4.5,<1
+python-dotenv>=1.0,<2
+scipy>=1.13,<2
